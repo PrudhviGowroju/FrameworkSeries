@@ -21,9 +21,16 @@ Issues faced:
 If we have any [module-info.java](http://module-info.java) then Test Ng doesn’t work. 
 
 So we did removed it and it worked*/
+	
 	@Test	
 	public void Demo() {
-		System.out.println("Hello");
+		System.out.println("Hello its day1 Class");
 	}
+	
+	@Test
+	public void secondTestCase() {
+		System.out.println("Second Test");
+	}
+	/* We can define multiple test cases in a single class */
 	
 }
